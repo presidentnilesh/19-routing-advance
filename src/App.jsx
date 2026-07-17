@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Navbar2 from './components/Navbar2'
 import Footer from './components/Footer'
 import About from './pages/About'
 import Product from './pages/Product'
@@ -18,6 +19,7 @@ const App = () => {
     <div className='bg-black text-white h-screen'>
       
       <Navbar />
+      <Navbar2 />
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/About' element={<About />}/>
